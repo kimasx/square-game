@@ -22,6 +22,8 @@ Please clone this repository and construct the game according to  the designs in
 
 * Use the included `main.css` and `main.js` files. Do not add any `.css` or `.js` files (with the exception of:)
 * Feel free to use any libraries you want to, but keep it simple.
+* Please make sure it works in the latest version of Chrome.
+* Feel free to add any embellishments you’d like (CSS animations, etc.)
 * Please write clear, concise, commented Javascript.
 * Priority #1 is that it works
 * Priority #2 is that the code is clear
