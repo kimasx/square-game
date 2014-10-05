@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 95px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+#board {
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#board td{
+  border: 2px solid black;
+  width: 41px;
+  height: 41px;
+}
+
+#board td.visible {
+  background-color: #ff00ff;
+}
+
+#board td.invisible {
+  background-color: black;
+}
+
+/* change color to yellow if mouse hover over box*/
+#board td.visible:hover {background-color: yellow;}
+
+#endScreen {
+  color: white;
+  text-align: center;
+  width: 194px;
+  height: 141px;
+  display: inline-block;
+  font-size: 140%;
+  font-weight: bold;
+  padding-top: 45px;
+}
+
+#restart {
+  clear: both;
+  display: inline-block;
+  padding-top: 32px;
+  font-size: 80%;
+  color: #ff00ff;
+}
+
+#timer {
+  color: white;
+  margin-left: 50.5%;
+  margin-top: 8px;
+}
+
+#seconds {
+  color: white;
+  display: inline-block;
+}
